@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pop Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body class = "bigContainer">
+    <h1  class = "row">Pop Quiz</h1>
+
+    <div class = "row">
+        <section class = "startScreen">
+            <h2>Are you ready?</h2>
+            <button class = "start advance">Start!</button>
+        </section>
+
+        <section class = "questionArea">
+            <p id="question">Question</p>
+            <div class = "containerOne">
+                <button class = "answer box" id = "ansA">Answer 1</button>
+                <button class = "answer box" id = "ansB">Answer 2</button>
+            </div>
+            <div class = "containerTwo">
+                <button class = "answer box" id = "ansC">Answer 3</button>
+                <button class = "answer box" id = "ansD">Answer 4</button>
+            </div>
+            <button class = "next advance">Next</button>
+        </section>
+        
+        <section class = "endScreen">
+            <h2 class = "score">Your score is 0 points!</h2>
+            <p class = "message">Message</p>
+            <button class = "restart advance">Restart</button>
+        </section>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
